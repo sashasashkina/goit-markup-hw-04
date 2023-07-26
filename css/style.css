@@ -52,6 +52,7 @@ img {
   --listmenu-color: #404BBF;
   --button-color: #e7e9fc;
   --icon-color:#8E8F99;
+  
 }
 
 
@@ -169,10 +170,8 @@ body {
   font-size: 56px;
   padding-top: 188px;
   padding-bottom: 188px;
-
-
-
 }
+
 
 
 .type {
@@ -237,7 +236,15 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.sked-icons{
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  height: 112px;
+  background-color: var(--paragraf-tooter);
+  border-radius: 4px;
+  margin-bottom: 8px; 
+}
 .sked {
   display: flex;
   gap: 24px;
@@ -265,6 +272,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
 }
+
 
 /* section3 */
 .sectionthree {
