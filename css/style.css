@@ -51,6 +51,7 @@ img {
   --white-color: #ffffff;
   --listmenu-color: #404BBF;
   --button-color: #e7e9fc;
+  --icon-color:#8E8F99;
 }
 
 
@@ -338,6 +339,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
+}
+/* section5 */
+.social-icon{
+  lill:var(--icon-color);
 }
 
 .footer {
