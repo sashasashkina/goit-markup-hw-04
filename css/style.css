@@ -245,6 +245,10 @@ body {
   border-radius: 4px;
   margin-bottom: 8px; 
 }
+.sked-icons-social{
+  width: 64px;
+  height: 64px;
+}
 .sked {
   display: flex;
   gap: 24px;
