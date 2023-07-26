@@ -342,7 +342,7 @@ body {
 }
 /* section5 */
 .social-icon{
-  lill:var(--icon-color);
+  fill:var(--icon-color);
 }
 
 .footer {
@@ -365,7 +365,14 @@ body {
   color: var(--paragraf-tooter);
   width: 264px;
 }
+.social-profession{
+  background-image: url(../images/Ellipse.jpg);
+background-image: no-repeat;
+}
 
+.icons media:hover social-profession{
+  fill:#404BBF;
+}
 /* portfolio */
 .section {
   padding-top: 96px;
