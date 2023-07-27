@@ -254,16 +254,7 @@ body {
 .open-modal:hover{
   opacity:0.8;
 }
-/* .backdrop{
-  position: fixed;
-  top:0;
-  left:0;
-  width: 100%;
-  background: rgba(0,0,0,0.5);
-}
-.modal{
-  width: 300px;
-} */
+
 /* section2 */
 
 .sectiontwo {
@@ -414,32 +405,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
 }
-
-/* section5 */
-.social-icon {
-  fill: var(--icon-color);
-}
-
-.footer {
-  background-color: var(--span-color);
-  padding: 100px 0;
-
-}
-
-.footer-logo {
-  margin-bottom: 16px;
-}
-
-.span {
-  color: var(--paragraf-tooter);
-}
-
-.footer-paragpaf {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--paragraf-tooter);
-  width: 264px;
-}
 .profession-ul{
 display: flex;
 justify-content: center;
@@ -448,6 +413,46 @@ gap: 24px;
 .profession-li{
   width: 40px;
   height: 40px;
+}
+.social-list{
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-list:hover{
+  background-color:var(--listmenu-color);
+}
+.social-list:focus{
+  background-color:var(--listmenu-color);
+}
+
+/* section5 */
+.items-social-icon{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:var(--icon-color);
+
+}
+.items-social-icon:hover{
+  border-color:var(--listmenu-color);
+  color:var(--listmenu-color);
+}
+.items-social-icon:focus{
+  border-color:var(--listmenu-color);
+  color:var(--listmenu-color);
+}
+.social-icon {
+  
+  fill: currentColor;
 }
 .sectionfive{
   padding-top: 120px; 
@@ -466,6 +471,30 @@ gap: 24px;
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+
+/* footer */
+.footer {
+  background-color: var(--span-color);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
+}
+
+.span {
+  color: var(--paragraf-tooter);
+}
+
+.footer-paragpaf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-tooter);
+  width: 264px;
+}
+
+
+
 /* portfolio */
 .section {
   padding-top: 96px;
