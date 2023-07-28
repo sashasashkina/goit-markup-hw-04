@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -370,11 +371,13 @@
         </div>
 
     </footer>
-    <div class="data-modal">
-        <button type="button" class="open-modal" data-modal-open>Open Modal</button>
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button type="button" class="close-button" data-modal-close></button>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            <button type="button" class="open-modal" data-modal-open>Open Modal</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" class="close-button" data-modal-close></button>
+                </div>
             </div>
         </div>
     </div>
