@@ -96,7 +96,7 @@ body {
 
 .link {
   text-decoration: none;
-  
+
 }
 
 .list {
@@ -697,14 +697,18 @@ body {
   overflow: hidden;
 } 
 
-
-.section-items-images link:hover{
+.overlay{
+  transform: transtateY(100%);
+}
+.overlay:hover{
   transform: translateY(0%);
 }
-.section-items-images link:focus{
+.overlay:focus{
   transform: translateY(0%);
 }
-
+.box:hover .overlay {
+  transform: translateX(0);
+}
 
 
 
