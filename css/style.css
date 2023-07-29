@@ -697,8 +697,8 @@ body {
 } 
 
 
-.images-cover:hover,
-.images-cover:focus{
+.images-cover-text:hover,
+.images-cover-text:focus{
   transform: translateY(0%);
 }
 
