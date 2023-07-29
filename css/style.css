@@ -650,7 +650,7 @@ body {
 .section-list-lii:focus{
   transform: translateY(0%);
 }
-.images-cover {
+.images-cover-wrap {
   position: absolute;
   top: 0;
   border: 1px solid var(--button-color);
@@ -676,7 +676,7 @@ body {
   color: var(--paragraf-tooter);
   padding: 40px 32px;
   background-color: var(--brand-color); 
-
+ height: 100%;
   width: 100%;
   
 }
