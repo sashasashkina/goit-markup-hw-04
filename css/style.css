@@ -194,6 +194,7 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
   
 }
 
@@ -668,6 +669,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+
 }
 
 .images-cover-wrap {
@@ -740,8 +742,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
 .modal-close-btn:hover,
-.modal-close-btn:focus.
-{fill: #ffffff}
+.modal-close-btn:focus
+{fill: #ffffff;}
 
 .data-modal {
   position: fixed;
