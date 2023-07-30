@@ -653,10 +653,10 @@ body {
 
 }
 
-.section-items-images:hover .images-cover-wrap{
+.section-items-images:hover .images-cover-text{
   transform: translateY(0%);
 }
-.section-items-images:focus .images-cover-wrap{
+.section-items-images:focus .images-cover-text{
   transform: translateY(0%);
 }
 
