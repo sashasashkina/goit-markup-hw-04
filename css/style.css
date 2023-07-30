@@ -134,6 +134,7 @@ body {
   background-color: var(--listmenu-color);  
   border-radius: 2px;
   width: 100%;
+  color:var(--listmenu-color);
 }
 .current:hover{
   color: var(--listmenu-color);  
